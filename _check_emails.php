@@ -6,6 +6,7 @@
 	
 	ini_set('display_errors',1);
 	$output = "";
+	
 	$sendmail = false;
 	$psa = mysqli_connect('localhost', 'sdis_cron', 'cron2017**', 'psa');
 	$sdi = mysqli_connect('localhost', 'sdis_cron', 'cron2017**', 'admin_sdisglandserine');
