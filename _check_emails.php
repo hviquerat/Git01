@@ -1,6 +1,7 @@
 <?php
 	header('Content-Type: text/html; charset=iso-8859-1');
 	error_reporting(-1);
+	
 
 	require('wp-config.php');
 	
